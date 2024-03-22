@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T06:08:46Z" name="Default suite" finished-at="2024-03-22T06:08:46Z" duration-ms="120">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T06:08:46Z" name="Default test" finished-at="2024-03-22T06:08:46Z" duration-ms="120">
+      <class name="TestCases.ParallelChromeTest">
+        <test-method is-config="true" signature="setupSelenium(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.ParallelChromeTest@7a5ceedd]" started-at="2024-03-22T11:38:46Z" name="setupSelenium" finished-at="2024-03-22T11:38:46Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setupSelenium but has not been marked @Optional or defined
+in C:\Users\1003579\AppData\Local\Temp\testng-eclipse-451948385\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setupSelenium but has not been marked @Optional or defined
+in C:\Users\1003579\AppData\Local\Temp\testng-eclipse-451948385\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method signature="TestCaseOne()[pri:0, instance:TestCases.ParallelChromeTest@7a5ceedd]" started-at="2024-03-22T11:38:46Z" name="TestCaseOne" finished-at="2024-03-22T11:38:46Z" duration-ms="14" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method signature="TestCaseTwo()[pri:0, instance:TestCases.ParallelChromeTest@7a5ceedd]" started-at="2024-03-22T11:38:46Z" name="TestCaseTwo" finished-at="2024-03-22T11:38:46Z" duration-ms="4" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseTwo -->
+        <test-method signature="TestCaseThree()[pri:0, instance:TestCases.ParallelChromeTest@7a5ceedd]" started-at="2024-03-22T11:38:46Z" name="TestCaseThree" finished-at="2024-03-22T11:38:46Z" duration-ms="20" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseThree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ParallelChromeTest@7a5ceedd]" started-at="2024-03-22T11:38:46Z" name="tearDown" finished-at="2024-03-22T11:38:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.ParallelChromeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
